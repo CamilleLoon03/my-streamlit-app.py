@@ -11,7 +11,7 @@ st.title("📖 Camille Loon's Biography")
 
 st.sidebar.header("Edit Student Information ✍️")
 student_name = st.sidebar.text_input("Name", "Camille Loon")
-student_id = st.sidebar.text_input("Student ID", "2024344")
+student_id = st.sidebar.text_input("Student ID", "2024311")
 age = st.sidebar.number_input("Age", min_value=16, max_value=30, value=18)
 major = st.sidebar.text_input("Major", "Bachelor of Science in Computer Engineering")
 about_me = st.sidebar.text_area(
